@@ -4,7 +4,7 @@ class Calebe{
         //ações
     }
 
-    metodo1 (exibirTwitch) {
+    exibirTwitch () {
         //ações
         window.open(this.twitch);
     }
@@ -13,3 +13,7 @@ class Calebe{
         //ações
     }
 }
+
+var novoCalebe = new Calebe ("https://www.twitch.tv/symfuhny");
+
+novoCalebe.exibirTwitch();
